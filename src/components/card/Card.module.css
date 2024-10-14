@@ -1,0 +1,27 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 150px;
+	width: 300px;
+	padding: 1rem;
+	background-color: #d3ac12;
+	color: #242424;
+	border-radius: 10px;
+}
+
+.cardBContainer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cardUser {
+	color: rgba(255, 255, 255, 0.87);
+	font-weight: 600;
+}
+
+.cardBalance {
+	font-weight: 500;
+	user-select: none;
+	cursor: pointer;
+}
